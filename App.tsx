@@ -43,6 +43,9 @@ const App = () => {
       <View style={styles.container}>
         <MapBoxGL.MapView style={styles.map} styleJSON={JSON.stringify(defaultStyle)}>
           <MapBoxGL.Camera zoomLevel={11} centerCoordinate={[18.413029, 43.856430]} />
+          <MapBoxGL.PointAnnotation id='1' coordinate={[18.4075, 43.8553]}  />
+          <MapBoxGL.PointAnnotation id='2' coordinate={[18.4166814987, 43.8586220754]}  />
+          <MapBoxGL.PointAnnotation id='3' coordinate={[18.40793, 43.85829]}  />
         </MapBoxGL.MapView>
       </View>
     </View>

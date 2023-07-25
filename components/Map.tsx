@@ -52,7 +52,8 @@ const locations = [
   },
 ]
 
-const App = () => {
+const Map = () => {
+
   return (
     <View style={styles.page}>
       <View style={styles.container}>
@@ -85,4 +86,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App
+export default Map

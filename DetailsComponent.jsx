@@ -3,7 +3,7 @@ import React from 'react'
 
 const Component = () => {
   return (
-    <View style={{ padding: 20, gap: 10, position: 'relative' }}>
+    <View style={{flex: 1, padding: 20, gap: 10, position: 'relative', backgroundColor: 'white'}}>
       <View style={{ paddingVertical: 10, flexDirection: 'row', justifyContent: 'space-between', borderBottomWidth: 1, borderBottomColor: 'black', paddingTop: 0 }}>
         <Image style={{ width: 30, height: 30 }} width={20} height={20} source={require("./assets/iconerrorbold.png")} />
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 }}>
@@ -113,8 +113,8 @@ const Component = () => {
         />
       </View>
 
-      <View style={{position: 'absolute', left: 0,right: 0, bottom: 1, shadowColor: "rgba(0, 0, 0, 0.55)",shadowOffset: {width: 0,height: 1,},shadowRadius: 4,elevation: 4,shadowOpacity: 1,height: 107,backgroundColor: 'white',}}>
-        <View style={{flex: 1, marginTop: 15}}>
+      <View style={{position: 'absolute', left: 0,right: 0, bottom: 0, height: 107,backgroundColor: 'white', borderWidth: 1, justifyContent: 'center'}}>
+        <View style={{}}>
           <View style={{backgroundColor: 'black', alignItems: 'center', justifyContent: 'center', gap: 5, flexDirection: 'row', padding: 10, marginHorizontal: 10, borderRadius: 10}}>
             <Image
               style={{width: 14, height: 14}}

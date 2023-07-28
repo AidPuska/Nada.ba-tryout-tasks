@@ -3,7 +3,7 @@ import React from 'react'
 
 import MapBoxGL from '@rnmapbox/maps';
 
-MapBoxGL.setAccessToken('pk.eyJ1IjoiYWlkcHVza2EiLCJhIjoiY2w5cjk3b204MGVhejN1bzd4bjV0bGRzeSJ9.b3U1oVckpLq5tLd9SzmGkw');
+MapBoxGL.setAccessToken(process.env.MAPBOX_API);
 MapBoxGL.setConnected(true);
 
 const defaultStyle = {

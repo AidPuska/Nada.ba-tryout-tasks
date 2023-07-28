@@ -7,7 +7,7 @@ import { collection } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCJy82AQXJVtOQdBIaX5SQ1CIuSXPc2T00",
+  apiKey: process.env.FIREBASE_API,
   authDomain: "maptodo-c73d4.firebaseapp.com",
   projectId: "maptodo-c73d4",
   storageBucket: "maptodo-c73d4.appspot.com",
